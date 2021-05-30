@@ -1,0 +1,30 @@
+.Button {
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.Button:hover {
+    border: 1px solid #808080;
+}
+
+.Success {
+    background-color: #f0c040;
+}
+
+.Success:hover {
+    background-color: #ff8000;
+}
+
+.Remove {
+    background-color: #f0f0f0;
+}
+
+.Remove:hover {
+    background-color: #a9a9a9;
+}
